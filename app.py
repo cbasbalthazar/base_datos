@@ -4,7 +4,7 @@ from PIL import Image
 
 
 st.title('Análisis de datos de Cbas')
-image = Image.open('Panel Control.jpg')
+image = Image.open('Panel Control.png')
 st.image(image)
 
 uploaded_file = st.file_uploader('Choose a file')
