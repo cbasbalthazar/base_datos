@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 
-st.title('Análisis de datos de Sensores en Mi Ciudad')
+st.title('Análisis de datos de Cbas')
 image = Image.open('grafana2.jpg')
 st.image(image)
 
