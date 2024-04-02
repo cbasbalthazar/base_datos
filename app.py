@@ -4,7 +4,7 @@ from PIL import Image
 
 
 st.title('Análisis de datos de Cbas')
-image = Image.open('grafana2.jpg')
+image = Image.open('Smart_City.original.jpg')
 st.image(image)
 
 uploaded_file = st.file_uploader('Choose a file')
