@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 
-st.title('Análisis de datos de Cbas')
+st.title('IoT - Análisis de datos')
 image = Image.open('Panel Control.png')
 st.image(image)
 
